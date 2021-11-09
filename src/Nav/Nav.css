@@ -1,0 +1,67 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.Nav-list{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 0;
+    margin: 1% 50% 1% 1.5%;
+}
+
+.Nav-list li{
+    margin-right: 3%;
+    padding: 2% 5%;
+    border-radius: 30px;
+    align-self: center;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+}
+.Nav-list li:hover{
+    cursor: pointer;
+    color:#FFFFFF;
+    background-color: #282828;
+}
+
+.Nav-sort{
+    display: flex;
+    flex-direction: row;
+    margin: 1%;
+}
+.sort-icon{
+    margin:calc(1% + 6px) 7px;
+    width: 10px;
+    height: 5.62px;
+}
+
+.sort-burger{
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+}
+.burger{
+    flex-direction: column;
+}
+.burger:hover{
+    cursor: pointer;
+}
+
+.active{
+    background-color: #282828;
+    color: white;
+}
+.unactive{
+    background-color: #F9F9F9;;
+
+}
+.burger-active{
+    color: red;
+}
+.burger-unactive{
+    color: grey;
+}

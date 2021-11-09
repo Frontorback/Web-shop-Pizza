@@ -1,0 +1,94 @@
+main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* grid-template-columns: repeat(3, 1fr); */
+    margin: 0 auto;
+    
+}
+.main-section{
+    margin-right: 10%;
+    margin-top: 2%;
+    
+}
+.main-section:nth-child(4n+4){
+    margin-right: 0%;
+}
+.pizza-img{
+    /* width: 24.07%;
+    height: 23.99%; */
+    width: 260px;
+    height: 260px;
+
+}
+.pizza-name{
+    text-align: center;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 11px 0 22px 0;
+}
+.pizza-settings{
+    
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    background: #F3F3F3;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+}
+.f-settings, .length-settings{
+    display: flex;
+    flex-direction: row;
+    margin: 7px;
+
+}
+.length-settings{
+    margin-top: 0;
+}
+.f-settings div,.length-settings div{
+    background-color: white;
+    border-radius: 5px;
+    padding: 1% 8%;
+    text-align: center;
+}
+.f-settings div{
+    width: 50%;
+}
+.length-settings div{
+    width: 33%;
+}
+
+.price-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 17px;
+}
+
+.price{
+ 
+    align-self: center;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    letter-spacing: 0.015em;
+    
+}
+.add-pizza{
+    
+    background: #ffffff;
+    border: 1px solid #FE5F1E;
+    color: #FE5F1E;
+    box-sizing: border-box;
+    border-radius: 30px;
+
+    padding: 11px 18px 14px 18px;
+
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+}

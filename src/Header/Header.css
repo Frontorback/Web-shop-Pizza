@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+}
+header{
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1% 5%;
+}
+
+.logo, .cart-section,
+.cart-sum, .cart-count{
+    display: flex;
+
+}
+.img-logo{
+    width:38px;
+    height: 38px;
+}
+.text-logo div:first-child{
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.cart-section{
+ 
+    border-radius: 30px;
+    padding: 1% 2%;
+    background-color: #FE5F1E;
+}
+.cart-sum{
+}
+.cart-count{
+}
+.cart-between{
+    margin: 0 10px;
+    border-right: 2px solid white;
+}
